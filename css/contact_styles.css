@@ -1,0 +1,144 @@
+/* Contact */
+/*Background image centering*/
+.background-contact { 
+  	background: url("../img/honeysuckle1366x659.jpg") repeat-y center center fixed; 
+  	background-color: black;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+/*Background image centering*/
+
+.body-contact {
+	width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+	color: #bfbfbf;
+}
+
+.main-contact {
+	padding-top: 6em;
+	padding-bottom: 4em
+}
+
+.blank-contact {
+	float: left;
+	padding-bottom: 1em
+}
+
+.main-contact, 
+.blank-contact {
+    width: 50%;
+    max-height: 100%;
+    text-align: center;
+    display: inline-block;  
+}
+
+.logobig-contact {
+	margin-bottom: 0
+}
+
+.main-contact h2 {
+	font-size: 20px
+}
+
+.main-contact p {
+	margin: 0;
+	font-size: 15px
+}
+
+/*Typography Contact*/
+.main-contact
+h2, 
+p {
+	font-family: 'Michroma', sans-serif;
+}
+/*Typography Contact*/
+
+/* logobig contact */
+.body-contact .main-contact .logobig-contact {
+	background: url("../img/LOGO G B con gl.jpg") center no-repeat
+}
+
+#logobig-behind-contact img:hover {
+	opacity: 0;
+}
+/* logobig contact */
+/* Contact */
+
+
+
+/*navbar*/
+.nav {
+	top: 0;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	padding-right: 5em;
+	padding-top: 5px;
+	opacity: 0.65;
+}
+
+.navhome {
+	width: 50%;
+	float: left;
+}
+
+.menu {
+	width: 50%;
+	display: inline-block;
+
+}
+
+.nav li {	
+	display: inline-block;
+	float: right;
+	padding-top: 11px;
+	margin-right: 5em;
+}
+
+.nav ul li a {
+	color: #f2f2f2
+}
+
+
+.nav a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+.nav a {
+	transition: color 800ms;
+	text-decoration: none;
+}
+/*navbar*/
+
+/*glyphs*/
+.glyphicon {
+	color: yellow
+}
+
+.glyphicon:before {
+  margin-right: 15px;
+}
+
+.glyphicon:hover {
+	color:red;
+}
+/*glyphs*/
+
+
+
+/*logo navbar glitch*/
+.navhome {
+	background: url("../img/logo nav gl2.jpg") no-repeat;
+}
+
+#navhome img:hover {
+	opacity: 0;
+}
+
+
+/*logo navbar glitch*/

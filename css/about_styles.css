@@ -1,0 +1,223 @@
+/*About*/
+.sub-about {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.logobig-about {
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 70px;
+}
+
+.portrait {
+	display: inline-block;
+	float: left;
+}
+
+.column-about {
+	display: inline-block;
+	float: left;
+	padding: 0 20px;
+	padding-left:  20px;
+	width: 30%
+}
+
+.main-about {
+	padding-top: 2em;
+	background-color: #000023;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 10em;
+}
+
+.skills h3 {
+	margin-top: 4px;
+	text-transform: uppercase;
+}
+
+/*Typography About*/
+.main-text h3 {
+	font-family: 'Michroma', sans-serif;
+}
+
+.skills h3 {
+	font-family: 'Michroma', sans-serif;
+}
+
+.intro-about p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+}
+
+.main-text p {
+	font-family: consolas, monospaced;
+	font-size: 18px
+}
+
+.skills li {
+	font-family: consolas, monospaced;
+	font-size: 20px;
+}
+/*Typography About*/
+
+.intro-about p {
+	-webkit-margin-before: 0;
+	width: 300px;
+	margin-top: 0px;
+	color: #abab9a
+}
+
+.skills2 {
+	padding-top: 30px
+}
+
+#skill-list,
+#skill-list2 {
+	margin-left: 20px;
+}
+
+.main-about {background-color: #000023;
+	color: #34495e;
+}
+
+.skills,
+.skills2,
+#skill-list,
+#skill-list2 {
+	background-color: #000000;
+	color: #abab9a;
+}
+
+.skills h3, li {
+	background-color: #000000;
+}
+
+.main-about {
+	background-color: #000023;
+	padding-bottom: 15em
+}
+
+.main-text p {
+	padding-left: 60px;
+}
+
+
+.skills {
+	margin-left: 130px;
+}
+
+.main-text-a {
+	padding-bottom: 2em
+}
+
+.main-text h5 {
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.main-text h4 {
+	margin-top: 0px;
+	text-align: center;
+}
+/*About*/
+
+
+/*navbar*/
+.nav {
+	top: 0;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	padding-right: 5em;
+	padding-top: 5px;
+	opacity: 0.65;
+}
+
+.navhome {
+	width: 50%;
+	float: left;
+}
+
+.menu {
+	width: 50%;
+	display: inline-block;
+
+}
+
+.nav li {	
+	display: inline-block;
+	float: right;
+	padding-top: 11px;
+	margin-right: 5em;
+}
+
+.nav ul li a {
+	color: #f2f2f2
+}
+
+
+.nav a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+.nav a {
+	transition: color 800ms;
+	text-decoration: none;
+}
+/*navbar*/
+
+/*glyphs*/
+.glyphicon {
+	color: yellow
+}
+
+.glyphicon:before {
+  margin-right: 15px;
+}
+
+.glyphicon:hover {
+	color:red;
+}
+
+h2 {
+	font-size: 20px
+}
+
+p 	{
+	margin: 0;
+	font-size: 15px
+}
+
+li {
+	margin-top: 0;
+	margin-right: 2em;
+}
+/*glyphs*/
+
+
+/*Logo Big About*/
+.main-about .sub-about .logobig-about {
+	background: url("../img/LOGO G B MED GL2.jpg") center no-repeat
+}
+
+#logobig-about-behind img:hover {
+	opacity: 0;
+}
+/*Logo Big About*/
+
+
+/*logo navbar glitch*/
+.navhome {
+	background: url("../img/logo nav gl2.jpg") no-repeat;
+}
+
+#navhome img:hover {
+	opacity: 0;
+}
+/*logo navbar glitch*/

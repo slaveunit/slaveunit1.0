@@ -1,0 +1,139 @@
+body {
+	background-color: #000023;
+}
+
+/*FAQ*/
+.main-faq {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 4em;
+}
+
+.questions {
+	padding-top: 3em
+}
+
+/*FAQ Accordion*/
+#headingOne, 
+#headingTwo,
+#headingThree {
+	background-color: black
+}
+
+.panel-body {
+	background-color: gray;
+	color: black;
+}
+
+.panel-default {
+    border-color: gray;
+}
+
+.panel-group 
+.panel+
+.panel {
+    margin-top: 30px;
+}
+
+.questions a {
+	text-decoration: none
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Michroma', sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+/*FAQ Accordion*/
+/*FAQ*/
+
+
+
+
+/*navbar*/
+.nav {
+	top: 0;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	padding-right: 5em;
+	padding-top: 5px;
+	opacity: 0.65;
+}
+
+.navhome {
+	width: 50%;
+	float: left;
+}
+
+.menu {
+	width: 50%;
+	display: inline-block;
+
+}
+
+.nav li {	
+	display: inline-block;
+	float: right;
+	padding-top: 11px;
+	margin-right: 5em;
+}
+
+.nav ul li a {
+	color: #f2f2f2
+}
+
+
+.nav a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+.nav a {
+	transition: color 800ms;
+	text-decoration: none;
+}
+/*navbar*/
+
+/*glyphs*/
+.glyphicon {
+	color: yellow
+}
+
+.glyphicon:before {
+  margin-right: 15px;
+}
+
+.glyphicon:hover {
+	color:red;
+}
+
+h2 {
+	font-size: 20px
+}
+
+p 	{
+	margin: 0;
+	font-size: 15px
+}
+
+li {
+	margin-top: 0;
+	margin-right: 2em;
+}
+/*glyphs*/
+
+/*logo navbar glitch*/
+.navhome {
+	background: url("../img/logo nav gl2.jpg") no-repeat;
+}
+
+#navhome img:hover {
+	opacity: 0;
+}
+/*logo navbar glitch*/
+

@@ -1,0 +1,1188 @@
+/*INDEX*/
+body {
+	position: relative;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.carouselheader {
+	top: 0;
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	height: 91px;
+	opacity: .65;
+	margin-top: 40%;
+	text-align: center;
+}
+
+.carouselheaderpic {
+	top: 0;
+	position: absolute;
+	margin-top: 40%;
+	width: 100%;
+	height: 91px;
+	padding-top: 0;
+	padding-right: 5%;
+	text-align: right;
+}
+
+/* Work, Mystyle, Contact box with big glyphs */
+body > div.container.indexcol > div {
+	background-color: black;
+    padding: 2em;
+}
+
+/* Big logo on top of carousel */
+#index > div.carouselheaderpic > a > img {
+	display: inline;
+}
+
+/* MOBILE HERO PIC */
+.mobilehero {
+	width: 100%;
+    height: 100%;
+    background-image: url("../img/tapesheromobbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}​
+/* MOBILE HERO PIC */
+
+.bigpicsindex p {
+	color: #737373;
+	margin: 0;
+	font-size: 20px;
+	padding-bottom: 8px;
+	padding-top: 8px
+}
+
+body {
+	background: url("../img/5.jpg") repeat-y center center fixed; 
+  	background-color: black;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.row h2 {
+	font-family: 'Michroma', sans-serif;
+	font-size: 175%;
+	color: lightgray
+}
+
+.row p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 150%;
+	color: gray
+}
+
+.container {
+	padding-top: 15%;
+	padding-bottom: 8%;
+}
+
+.carousel-caption p {
+	font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+	color: white;
+	font-weight: 100
+}
+
+.carousel-caption a {
+	font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+	width: 65%;
+	color: white;
+	font-weight: 100
+}
+
+.carousel-caption a:hover {
+	text-decoration: none;
+	color: white
+}
+
+.bigpicsindex p {
+	width: 100%;
+	text-align: left;
+	height: 160px;
+	padding-top: 8%;
+}
+
+.glyphicon.glyphicon-menu-left {
+    top: 0;
+    font-size: 1em;
+    margin-top: 227%;
+    position: absolute; 
+}
+
+.glyphicon.glyphicon-menu-right {
+    top: 0;
+    font-size: 1em;
+    margin-top: 227%;
+    position: absolute;
+}
+
+.row .glyphicon  {
+    font-size: 9em;
+    color: lightgray;
+    padding-bottom: 10%
+}
+
+.row .bigglyphs {
+	text-align: center;
+}
+
+.row img {
+	padding-bottom: 8%;
+	text-align: center;
+}
+
+/*INDEX MOBILE*/
+.container .indexrowcolhsm {
+	font-size: 140%;
+}
+
+.container .indexcolpsm {
+	font-size: 120%;
+}
+/*INDEX MOBILE*/
+
+.indexcol {
+	margin-bottom: 10em
+}
+
+/*INDEX*/
+
+
+
+
+
+/*WORK*/
+#mywork {
+	padding-top: 50px;
+	padding-bottom: 10em;
+}
+
+#work-main {
+	width: 90%;
+}
+
+.logo-med-work {
+	float: left;
+	width: 50%;
+	height: 129px;
+}
+
+.worktitle {
+	width: 50%;
+	display: inline-block;
+	height: 129px
+}
+
+.worktitle h1 {
+	padding: 45px;
+	margin: auto;
+}
+
+
+/* javascript exercise 19 object literals */
+.image {
+	box-sizing: border-box;
+	border: 2px solid gray;
+	width: 500px;
+	height: 270px;
+	margin: 5px;
+	display: inline-block;
+	position: relative;
+}
+
+.info {
+	display: inline-block;
+	color: white;
+	font-family:  'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
+	position: absolute;
+	top: 14%;
+	left: 6%;
+	z-index: +1;
+}
+
+.project-title {
+	font-weight: 100;
+}
+
+.workdescriptionphotog p, .workdescriptionphotog-sm p {
+	font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    color: gray;
+}
+
+.workphotography {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+/* end javascript exercise 19 object literals */
+
+.workphotography-sm img {
+	padding-bottom: 1em;
+}
+
+
+
+
+.workpics {
+	clear: both;
+}
+
+.worktitle {
+	display: inline-block;
+	width: 45%;
+	margin: 0;
+	text-align: right;
+	font-family: 'Michroma', sans-serif;
+	color: red;
+	clear: both;
+}
+
+.workdescription {
+	padding-top: 1%;
+	padding-bottom: 2%
+}
+
+/*EMBEDDED VID*/
+.videodescription {
+	width: 95%;
+	padding-bottom: 2em;
+}
+.videodescription p {
+	font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    color: gray;
+    width: 95%;   
+}
+
+.vid {
+	width: 95%;
+	margin: auto;
+}
+/*EMBEDDED VID*/
+
+/*WORK MOBILE*/
+.workdessm {
+	width: 85%;
+    margin: auto;
+    margin-bottom: 6%;
+}
+/*WORK MOBILE*/
+/*WORK*/
+
+
+
+
+
+
+/*MYSTYLE*/
+#mystyle {
+	padding-top: 50px;
+	padding-bottom: 10em;
+}
+
+.logo-med-mystyle {
+	float: left;
+	width: 50%;
+	height: 129px;
+}
+
+.mystyletitle {
+	display: inline-block;
+	height: 129px;
+	width: 50%;
+	margin: 0;
+	text-align: right;
+	font-family: 'Michroma', sans-serif;
+	color: red;
+	clear: both;
+}
+
+.mystyletitle h1 {
+	padding: 45px;
+	margin: auto;
+}
+
+.mystylepics {
+	width: 100%;
+	margin: auto;
+	margin-top: 0;
+	padding-top: 2%;
+	padding-bottom: 0;
+}
+
+.mystyledescription {
+	width: 100%;
+	padding-top: 2em;
+}
+.mystyledescription p {
+	font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    color: gray;
+    width: 95%;   
+}
+
+.mystylemain {
+	width: 90%;
+	margin-bottom: 10em;	
+}
+
+/* Carousel pic labels */
+#carousel-example-generic2 > div > div.item > div {
+	text-align: right;
+	color: orange;
+	text-shadow:2px 2px 10px black;
+	font-style: italic;
+}
+
+#mystyleheader {
+	font-family: 'Michroma', sans-serif;
+	font-size: 200%
+}
+
+/*MYSTYLE*/
+
+
+
+
+
+/*ABOUT*/
+.main-about .row {
+	width: 100%;
+}
+
+/*LOGO BIG ABOUT glitch when hovered*/
+.main-about .sub-about .logobig-about {
+	background: url("../img/LOGO G B MED GL2.jpg") center no-repeat
+}
+
+#logobig-about-behind img:hover {
+	opacity: 0;
+}
+
+#logobig-about-behind > a > img {
+	margin: auto
+}
+
+.logobig-about {
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 70px;
+}
+/*LOGO BIG ABOUT*/
+
+.aboutoutro {
+	text-align: center;
+	padding-top: 40%;
+	padding-bottom: 2%;
+}
+
+.sub-about {
+	width: 90%;
+	margin: auto;
+}
+
+.portrait {
+	display: inline-block;
+	float: left;
+	padding: 0
+}
+
+.skills h3 {
+	margin-top: 5%;
+	text-transform: uppercase;
+}
+
+.intro-about p {
+	text-transform: uppercase;
+	margin-top: 0;
+	color: #999900
+}
+
+.intro-about {
+	padding-right: 5%;
+	padding-left: 0;
+}
+
+.skills {
+	margin-left: 0;
+}
+
+.skills2 {
+	padding-top: 5%
+}
+
+#skill-list,
+#skill-list2 {
+	margin-left: 5%;
+}
+
+.skills,
+.skills2,
+#skill-list,
+#skill-list2 {
+	background-color: #000000;
+	color: #abab9a;
+}
+
+.skills h3, li {
+	background-color: #000000;
+}
+
+.main-about {
+	padding-bottom: 15em
+}
+
+.main-text {
+	clear: both;
+	width: 90%;
+	margin: auto;
+	padding-top: 10em;
+}
+
+.main-text p {
+	padding-left: 0;
+}
+
+.main-text-a {
+	padding-bottom: 2em
+}
+
+/*TOOLTIP ABOUT*/
+#tooltip1 {
+	color: red;
+}
+/*TOOLTIP ABOUT*/
+
+/*TYPOGRAPHY ABOUT*/
+.intro-about p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 360%;
+	font-weight: 100;
+}
+
+.skills h3 {
+	font-family: 'Michroma', sans-serif;
+	font-size: 200%
+}
+
+.skills li {
+	font-family: consolas, monospaced, sans-serif;
+	font-size: 150%;
+}
+
+.main-text h3 {
+	font-family: 'Michroma', sans-serif;
+	font-size: 230%;
+	color: red;
+}
+
+.main-text p {
+	font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    color: gray;
+}
+/*TYPOGRAPHY ABOUT*/
+
+/*MOBILE ABOUT*/
+.intro-about .intro-aboutsm {
+	font-size: 165%;
+	padding-bottom: 4em;
+}
+
+.skillssm h3 {
+	font-size: 125%;
+}
+
+.skillssm li {
+	font-size: 115%
+}
+
+/*MOBILE ABOUT*/
+
+/*ABOUT*/
+
+
+
+
+
+/*CONTACT*/
+.body-contact {
+	width: 50%;
+	color: #bfbfbf;
+	text-align: center;
+	padding-top: 8%;
+	padding-bottom: 3%
+}
+
+/*CONTACT LOGO BIG*/
+.body-contact .logobig-contact {
+	background: url("../img/LOGO G B con gl.jpg") center no-repeat
+}
+
+.logobig-contact img {
+	margin: auto
+}
+
+#logobig-behind-contact img:hover {
+	opacity: 0;
+}
+
+.body-contact img {
+	text-align: center;
+}
+/*CONTACT LOGO BIG*/
+
+/*CONTACT BACKGROUND IMAGE CENTERING*/
+.honeys { 
+  	background: url("../img/HONEYSUCKLEFL1259X11842.jpg") repeat-y center center; 
+  	
+  	background-size: cover;
+}
+/*CONTACT BACKGROUND IMAGE CENTERING*/
+
+.words-contact {	
+	padding-top: 5%;
+	padding-bottom: 6em;
+	width: 100%;	
+}
+
+.words-contact h2 {
+	font-size: 200%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.words-contact p {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 100%
+}
+
+.words-contact img {
+	margin: 0 auto
+}
+
+.words-contact .glyphicon {
+	color: yellow
+}
+
+#contact {
+	margin-bottom: 10em;
+}
+
+
+
+
+.social-icons {
+	text-align: center; 
+}
+
+.social-icons-fb {
+	display: inline-block;
+}
+
+.social-icons-bc {
+	display: inline-block;
+}
+
+.social-icons-ig {
+	display: inline-block;
+}
+
+.social-icons-fl {
+	display: inline-block;
+}
+
+
+
+/*CONTACT FORM*/
+.client-name, .client-email, .client-phone {
+	width: 50%;
+	margin: auto;
+	margin-bottom: 6px;
+	font-family: 'Share Tech Mono', sans-serif;
+	font-size: 125%;
+	color: green;
+}
+
+.client-name {
+	float: left;
+}
+
+.client-phone {
+	width: 30%;
+	display: inline-block;
+}
+
+form .contact-form {
+	padding-top: 3em;
+	padding-bottom: 0;
+	color: red;
+}
+
+.client-namephone {
+	padding-left: 4em;
+}
+
+.message-box {
+	width: 95%;
+	margin: auto;
+	margin-bottom: 0;
+	font-family: 'Share Tech Mono', sans-serif;
+	font-size: 125%;
+	color: green;
+}
+
+.btn-danger {
+	font-family: 'Michroma', sans-serif;
+	background-color: red;
+}
+
+input[type="text"], input[type="email"], textarea {
+  background-color: black;
+}
+
+/*CONTACT FORM MOBILE*/
+.contact-form-sm {
+	margin-top: 32px;
+}
+
+.form-sm {
+	width: 80%;
+	font-family: 'Share Tech Mono', sans-serif;
+	font-size: 100%;
+	padding-bottom: 8em;
+}
+
+.client-name-sm {
+	margin-bottom: 8px;
+	color: green;
+}
+
+.client-phone-sm {
+	margin-bottom: 8px;
+	color: green;
+}
+
+.client-email-sm {
+	margin-bottom: 8px;
+	color: green;
+}
+
+.message-box-sm {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+	padding-right: 12px;
+	width: 100%;
+	color: green;
+}
+
+.form-sm .btn-danger {
+	margin-left: 14em;
+	margin-top: 4px;
+}
+
+#contact > div.words-contact-sm > form > p {
+	color: red;
+	font-weight: 800;
+}
+/*CONTACT FORM MOBILE*/
+/*CONACT END FORM*/
+
+/*CONTACT MOBILE*/
+.words-contact-sm {	
+	padding-top: 2%;
+	padding-bottom: 20%;
+	width: 95%; 	
+}
+
+.words-contact-sm h2 {
+	font-size: 125%;
+	margin-bottom: 2%;
+	text-align: center;
+	color: #cccccc;
+}
+
+.words-contact-sm p {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 100%;
+	text-align: center;
+	color: #b2b2b2;
+}
+
+.words-contact-sm img {
+	margin: 0 auto;
+	padding-bottom: 3%;
+}
+
+.words-contact-sm {
+	padding-bottom: 2em;
+}
+/*CONTACT MOBILE*/
+
+/*CONTACT TYPOGRAPHY*/
+.words-contact
+h2, 
+p {
+	font-family: 'Michroma', sans-serif;
+}
+
+.words-contact-sm
+h2, 
+p {
+	font-family: 'Michroma', sans-serif;
+}
+/*CONTACT TYPOGRAPHY*/
+
+/*jscript exercise*/
+#visible-content {
+	width: 95%;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color: black;
+}
+
+
+
+/*CONTACT MAP*/
+.trailmap {
+	width: 90%;
+	margin: auto;
+	background-color: black;
+}
+
+.trailmap-description {
+	float: left;
+}
+
+.trailmap-description-inner {
+	padding-left: 15%;
+	padding-right: 5%;
+}
+
+.trailmap-description p {
+	margin-top: 10%;
+	margin-left: 5%;
+	font-family: 'Michroma', sans-serif;
+    font-size: 150%;
+    color: green;
+    text-align: right;
+}
+
+#map {
+	height: 450px;
+	width: 70%;
+	text-align: right;
+}
+
+
+.trailmap-map {
+	display: inline-block;
+	padding: 10%;
+}
+
+.trailmap-description {
+	width: 30%;
+}
+
+.trailmap-map {
+	width: 60%;
+}
+
+
+
+/*MOBILE*/
+.trailmap-map-sm {
+	padding-bottom: 2em;
+}
+
+.trailmap-description-sm p {
+	font-family: 'Michroma', sans-serif;
+    font-size: 100%;
+    color: green;
+    text-align: left;
+}
+
+.trailmap-description-inner-sm {
+	
+
+	padding: 5%;
+	
+}
+/*END MOBILE*/
+
+/*END CONTACT MAP*/
+
+
+
+/*CONTACT*/
+
+
+
+
+
+/*FAQ*/
+.main-faq {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 4em;
+}
+
+.faqtitle {
+	display: inline-block;
+	width: 45%;
+	margin: 0;
+	text-align: right;
+	font-family: 'Michroma', sans-serif;
+	color: red;
+	clear: both;
+}
+
+.logo-med-faq {
+	float: left;
+	width: 50%;
+	height: 129px;
+}
+
+.faqtitle {
+	width: 50%;
+	display: inline-block;
+	height: 129px;
+}
+
+.faqtitle h1 {
+	padding: 45px;
+	margin: auto;
+}
+
+/*FAQ TABLE*/
+.faq-table-outer {
+	margin: auto;
+}
+
+.faq-table {
+	margin: auto;
+	margin-top: 5em;
+	margin-bottom: 2em;
+	background-color: black;
+}
+
+.faq-table th {
+	padding-right: 5em;
+	padding-left: 1em;
+}
+
+.faq-header-table {
+	font-family: 'Michroma', sans-serif;
+	font-size: 140%;
+}
+
+.faq-table td {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 120%;
+	padding-left: 1em;
+}
+
+.table-ok {
+	text-align: center;
+}
+
+.questions {
+	padding-top: 3em
+}
+
+/*FAQ ACCORDION*/
+#headingOne, 
+#headingTwo,
+#headingThree {
+	background-color: black
+}
+
+.panel-body {
+	background-color: gray;
+	font-size: 120%;
+	color: black;
+}
+
+.panel-body ul {
+	background-color: gray
+}
+
+.panel-default {
+    border-color: gray;
+}
+
+.panel-group 
+.panel+
+.panel {
+    margin-top: 3%;
+}
+
+#faq-list li {
+	background-color: gray
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Michroma', sans-serif;
+    font-size: 140%;
+    color: gray;
+}
+/*FAQ ACCORDION*/
+
+/*FAQ MODAL*/
+.faqpopup {
+	padding-top: 14px;
+}
+
+#faq > div.faqpopup > h2 {
+	padding-left: 15px;
+	padding-top: 6px;
+	margin: 0;
+	font-family: 'Michroma', sans-serif;
+    font-size: 140%;
+    color: gray;
+}
+.modal-header {
+	float: left;
+	text-align: left;
+	padding: 0;
+	border: 0;
+	width: 50%;
+}
+
+.modal-button {
+	float: right;
+}
+
+#modalembed {
+	height: 627px;
+	width: 98%;
+}
+
+.modalpopuptitle {
+	padding-left: 15px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: 'Michroma', sans-serif;
+	font-size: 100%;
+}
+
+/*FAQ MODAL MOBILE*/
+/*modal window header font mobile*/
+#faq > div.faqpopup > div.modal.fade.bs-example-modal-lg.in > div > div > h1:nth-child(2) {
+	padding-left: 15px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: 'Michroma', sans-serif;
+	font-size: 100%;
+}
+/*modal window header font mobile*/
+#faq > div.faqpopup > div.modal.fade.bs-example-modal-lg.in > div > div > div.visible-xs-block.visible-sm-block > h1 {
+	padding-left: 15px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: 'Michroma', sans-serif;
+	font-size: 100%;
+}
+/*FAQ MODAL MOBILE*/
+
+/*FAQ MODAL*/
+
+/*FAQ MOBILE*/
+.faqtextsmh {
+	margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Michroma', sans-serif;
+    font-size: 100%;
+    color: ;
+}
+
+.faqtextsmp {
+	margin-top: 0;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    font-size: 110%;
+    color: ;
+}
+
+.modal-button-sm {
+	margin-top: 20px;
+}
+/*FAQ MOBILE*/
+
+/*FAQ*/
+
+
+
+
+
+/*TOOLTIP FONT tooltips located in Index and in About Page*/
+.tooltip-inner {
+	text-align: left;
+	color: green;
+	font-family: 'Share Tech Mono', sans-serif;
+	font-size: 125%;
+	width: 700px;
+}
+/*TOOLTIP FONT*/
+
+
+
+
+/*NAVBAR*/
+#nav {
+	top: 0;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	height: 43px;
+	
+	opacity: 0.75;
+	z-index: +1
+}
+
+/*NAVBAR LOGO GLITCH*/
+.navhome {
+	background: url("../img/logo nav gl2.jpg") no-repeat;
+}
+
+#navhome img:hover {
+	opacity: 0;
+}
+/*NAVBAR LOGO GLITCH*/
+
+.navbar {
+	height: 43px
+}
+
+.navhome {
+	width: 20%;
+	float: left;
+	margin-top: 4px
+}
+
+.menu {
+	width: 70%;
+	display: inline-block;
+}
+
+.navbar-collapse {
+	float: right;
+}
+
+.nav li a {
+	margin-left: 1em;
+	margin-right: 1em
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: orange;}
+
+.nav a {
+	transition: color 950ms;
+}
+/*NAVBAR*/
+
+
+
+
+/*FOOTER*/
+
+.disclaimer {
+	padding-top: 50em;
+	width: 98%;
+	text-align: right;
+
+}
+
+.blank {
+	width: 95%;
+	height: 2em;
+	padding-top: 0;
+	text-align: right;
+	margin: auto;
+	border-bottom : 1px solid #262626;
+}
+
+#footer-lg {
+	width: 95%;
+	height: 50px;
+	margin: auto;
+	padding-bottom: 5em
+}
+
+.fb-like {
+	float: left;
+	padding-bottom: 2em;
+	height: 50px
+}
+
+.socialfooter {
+	width: 10%;
+	float: left;
+	padding-bottom: 2em;
+	height: 50px;
+	padding-left: 4px;
+}
+
+.socialfooter img {
+	padding-left: 6px;
+}
+
+.footerlogo {
+	width: 50%;
+	height: 50px;
+	display: inline-block;
+    float: right;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 175%;
+}
+
+#footer-lg .footerlogoinside {
+	float: right;
+}
+
+/*FOOTER MOBILE*/
+#footer-sm {
+	text-align: right;
+	padding-bottom: 1em;
+}
+
+.socialfooter-sm {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.footerlogo-sm {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: right;
+}
+
+#footer-sm > div.fb-like-sm > div {
+	float: inherit;
+}
+/*FOOTER MOBILE*/
+
+/*FOOTER*/
